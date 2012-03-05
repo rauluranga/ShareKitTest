@@ -15,6 +15,7 @@
 		C4A74F7415053D7200DB2E24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A74F7315053D7200DB2E24 /* AppDelegate.m */; };
 		C4A74F7715053D7200DB2E24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A74F7615053D7200DB2E24 /* ViewController.m */; };
 		C4A74F7A15053D7200DB2E24 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4A74F7815053D7200DB2E24 /* ViewController.xib */; };
+		C4A74F851505487000DB2E24 /* apple.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C4A74F841505487000DB2E24 /* apple.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,16 @@
 		C4A74F6315053D7200DB2E24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C4A74F6515053D7200DB2E24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C4A74F6715053D7200DB2E24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C4A74F6B15053D7200DB2E24 /* ShareKitTest-Info.plist */ = {isa = PBXFileReference; path = "ShareKitTest-Info.plist"; sourceTree = "<group>"; };
+		C4A74F6B15053D7200DB2E24 /* ShareKitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareKitTest-Info.plist"; sourceTree = "<group>"; };
 		C4A74F6D15053D7200DB2E24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C4A74F6F15053D7200DB2E24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C4A74F7115053D7200DB2E24 /* ShareKitTest-Prefix.pch */ = {isa = PBXFileReference; path = "ShareKitTest-Prefix.pch"; sourceTree = "<group>"; };
-		C4A74F7215053D7200DB2E24 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4A74F7115053D7200DB2E24 /* ShareKitTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareKitTest-Prefix.pch"; sourceTree = "<group>"; };
+		C4A74F7215053D7200DB2E24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4A74F7315053D7200DB2E24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C4A74F7515053D7200DB2E24 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		C4A74F7515053D7200DB2E24 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C4A74F7615053D7200DB2E24 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C4A74F7915053D7200DB2E24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C4A74F841505487000DB2E24 /* apple.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		C4A74F6A15053D7200DB2E24 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C4A74F841505487000DB2E24 /* apple.jpeg */,
 				C4A74F6B15053D7200DB2E24 /* ShareKitTest-Info.plist */,
 				C4A74F6C15053D7200DB2E24 /* InfoPlist.strings */,
 				C4A74F6F15053D7200DB2E24 /* main.m */,
@@ -151,6 +154,7 @@
 			files = (
 				C4A74F6E15053D7200DB2E24 /* InfoPlist.strings in Resources */,
 				C4A74F7A15053D7200DB2E24 /* ViewController.xib in Resources */,
+				C4A74F851505487000DB2E24 /* apple.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

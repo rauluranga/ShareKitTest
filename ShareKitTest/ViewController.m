@@ -10,6 +10,21 @@
 
 @implementation ViewController
 
+@synthesize myImageView;
+@synthesize myToolBar;
+
+-(void) dealloc {
+    [myImageView release];
+    [myToolBar release];
+    [super dealloc];
+}
+
+- (IBAction)share:(UIBarButtonItem*)sender 
+{
+    NSLog(@"Share Tap!");
+}
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
