@@ -7,8 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
 #import "ViewController.h"
+#import "SHKConfiguration.h"
+#import "SKCustomConfigurator.h"
 
 @implementation AppDelegate
 
@@ -24,6 +25,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //
+    //Here you load ShareKit submodule with app specific configuration
+    DefaultSHKConfigurator *configurator = [[SKCustomConfigurator alloc] init];
+    [SHKConfiguration sharedInstanceWithConfigurator:configurator];
+    [configurator release];
+    //
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];

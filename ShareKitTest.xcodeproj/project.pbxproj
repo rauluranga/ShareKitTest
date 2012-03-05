@@ -132,6 +132,7 @@
 		C4A7511615055A3C00DB2E24 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A7511515055A3C00DB2E24 /* CFNetwork.framework */; };
 		C4A7511815055A4E00DB2E24 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A7511715055A4E00DB2E24 /* CoreLocation.framework */; };
 		C4A7511A15055A5900DB2E24 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A7511915055A5900DB2E24 /* Twitter.framework */; };
+		C4A7511D15057A8F00DB2E24 /* SKCustomConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A7511C15057A8F00DB2E24 /* SKCustomConfigurator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -382,6 +383,8 @@
 		C4A7511515055A3C00DB2E24 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		C4A7511715055A4E00DB2E24 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C4A7511915055A5900DB2E24 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		C4A7511B15057A8F00DB2E24 /* SKCustomConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCustomConfigurator.h; sourceTree = "<group>"; };
+		C4A7511C15057A8F00DB2E24 /* SKCustomConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCustomConfigurator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -440,6 +443,8 @@
 		C4A74F6915053D7200DB2E24 /* ShareKitTest */ = {
 			isa = PBXGroup;
 			children = (
+				C4A7511B15057A8F00DB2E24 /* SKCustomConfigurator.h */,
+				C4A7511C15057A8F00DB2E24 /* SKCustomConfigurator.m */,
 				C4A74F7215053D7200DB2E24 /* AppDelegate.h */,
 				C4A74F7315053D7200DB2E24 /* AppDelegate.m */,
 				C4A74F7515053D7200DB2E24 /* ViewController.h */,
@@ -1241,6 +1246,7 @@
 				C4A7510B150556D800DB2E24 /* SHKShareMenu.m in Sources */,
 				C4A7510C150556D800DB2E24 /* SHKViewControllerWrapper.m in Sources */,
 				C4A7510D150556D800DB2E24 /* Reachability.m in Sources */,
+				C4A7511D15057A8F00DB2E24 /* SKCustomConfigurator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
