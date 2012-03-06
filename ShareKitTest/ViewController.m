@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "SHK.h"
+#import "SHKItem.h"
+#import "SHKActionSheet.h"
 
 @implementation ViewController
 
@@ -22,6 +25,12 @@
 - (IBAction)share:(UIBarButtonItem*)sender 
 {
     NSLog(@"Share Tap!");
+    
+    SHKItem *item = [SHKItem image:myImageView.image title:@"Apple Retro"];
+	
+    SHKActionSheet *actionSheet = [SHKActionSheet actionSheetForItem:item];
+    
+	[actionSheet showFromToolbar:myToolBar];
 }
 
 
